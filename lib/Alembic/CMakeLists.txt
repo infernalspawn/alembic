@@ -36,6 +36,9 @@
 
 # Recurse into all the subdirectories
 
+ADD_DEFINITIONS(-DH5_BUILT_AS_DYNAMIC_LIB)
+ADD_DEFINITIONS(-DHALF_EXPORT)
+
 ADD_SUBDIRECTORY( Util )
 ADD_SUBDIRECTORY( AbcCoreAbstract )
 ADD_SUBDIRECTORY( AbcCoreOgawa )

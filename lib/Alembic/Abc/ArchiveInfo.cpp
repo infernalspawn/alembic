@@ -35,7 +35,7 @@
 //-*****************************************************************************
 
 #include <Alembic/Abc/ArchiveInfo.h>
-
+#include <algorithm>
 namespace Alembic {
 namespace Abc {
 namespace ALEMBIC_VERSION_NS {

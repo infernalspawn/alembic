@@ -41,6 +41,7 @@
 #include <Alembic/AbcGeom/SchemaInfoDeclarations.h>
 #include <Alembic/AbcGeom/IGeomParam.h>
 #include <Alembic/AbcGeom/IGeomBase.h>
+#include <algorithm>
 
 namespace Alembic {
 namespace AbcGeom {
